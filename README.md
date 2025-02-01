@@ -7,7 +7,7 @@ For any given resume, we first extract all the textual data from it using OCR an
 - Create a python virtual environment and activate it (optional) \
   Steps: https://www.freecodecamp.org/news/how-to-setup-virtual-environments-in-python/
 - Install all the required python packages: \
-  `pip install requirements.txt`
+  `pip install -r requirements.txt`
 - Install Tesseract for OCR: \
   Windows Executable: https://github.com/UB-Mannheim/tesseract/wiki
 - Update the .env file with your OpenAI key and Tesseract installation path
